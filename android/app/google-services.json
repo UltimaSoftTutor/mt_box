@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73774897865",
+    "project_id": "mt-box-c9ac2",
+    "storage_bucket": "mt-box-c9ac2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73774897865:android:c12202ac614e65a0a9cb18",
+        "android_client_info": {
+          "package_name": "com.example.mt_box"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfi-1Wor16Q_Hb2Wx45BWu_9HfSbwH0DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

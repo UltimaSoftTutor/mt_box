@@ -10,10 +10,12 @@ class AppTheme {
   }
   ThemeData theme() {
     return ThemeData(
+        scaffoldBackgroundColor: const Color(0xffffffff),
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.blue,
-          primary: const Color(0xff40C4FF),
-          secondary: const Color(0xffF44336),
+          primary: const Color(0xff03A9F4),
+          secondary: const Color(0xff40C4FF),
+          error: const Color(0xffF44336),
         ),
         primaryColor: const Color(0xff03A9F4),
         textTheme: const TextTheme(
