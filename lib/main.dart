@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         child: ChangeNotifierProvider(
           create: (context) => Controller(),
           child: MaterialApp(
-            title: 'MTBox',
+            title: 'MT Box',
             debugShowCheckedModeBanner: false,
             theme: AppTheme().theme(),
             home: const RegisterScreen(),
