@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mt_box/constants/extensions.dart';
-import 'package:mt_box/main.dart';
 import 'package:mt_box/utils/verification_button.dart';
 
 class TopBannerWidget extends StatelessWidget {
