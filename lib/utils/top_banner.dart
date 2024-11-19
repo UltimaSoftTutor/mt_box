@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mt_box/constants/extensions.dart';
-import 'package:mt_box/utils/verification_button.dart';
+import 'package:mt_box/utils/mt_elevated_button.dart';
 
 class TopBannerWidget extends StatelessWidget {
   const TopBannerWidget(
@@ -19,15 +19,15 @@ class TopBannerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: context.heigth * 0.45,
-      width: context.width,
+      height: context.screenHeigth * 0.45,
+      width: context.screenWidth,
       alignment: Alignment.topCenter,
       padding: EdgeInsets.symmetric(horizontal: 24.w, vertical: 54.h),
       decoration: BoxDecoration(
           image:
               DecorationImage(image: AssetImage(imagePath), fit: BoxFit.cover)),
       child: SizedBox(
-        height: context.heigth * 0.20,
+        height: context.screenHeigth * 0.20,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -42,9 +42,9 @@ class TopBannerWidget extends StatelessWidget {
                       fontWeight: FontWeight.w700,
                       color: Colors.white),
                 ),
-                VerificationButton(
-                  text: buttonText,
-                )
+                // MTElevatedButton(
+                //   text: buttonText,
+                // )
               ],
             ),
             Text(

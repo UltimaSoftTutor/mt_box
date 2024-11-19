@@ -34,9 +34,9 @@ class MyApp extends StatelessWidget {
           child: MaterialApp(
             theme: AppTheme().theme(),
             debugShowCheckedModeBanner: false,
-            initialRoute: '/splash_screen',
+            initialRoute: '/',
             routes: {
-              '/splash_screen': (context) => const SplashScreen(),
+              '/': (context) => const SplashScreen(),
               '/register_screen': (context) => const RegisterScreen()
             },
           ),

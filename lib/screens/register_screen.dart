@@ -23,8 +23,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
           extendBodyBehindAppBar: true,
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           body: SizedBox(
-            width: context.width,
-            height: context.heigth,
+            width: context.screenWidth,
+            height: context.screenHeigth,
             child: Form(
               key: key,
               child: Column(
