@@ -21,15 +21,15 @@ extension TextStyleExtension on TextStyle {
 
   TextStyle get introBold => TextStyle(
       fontFamily: 'Roboto',
-      fontSize: 25.sp,
+      fontSize: 24.sp,
       fontWeight: FontWeight.bold,
       color: AppColors.darkBlueColor,
       overflow: TextOverflow.ellipsis);
 
   TextStyle get introLight => TextStyle(
-      fontFamily: 'Roboto',
-      fontSize: 18.sp,
-      fontWeight: FontWeight.w400,
+      fontFamily: 'Roboto-Bold',
+      fontSize: 16.sp,
+      fontWeight: FontWeight.w500,
       color: AppColors.darkBlueColor,
       overflow: TextOverflow.visible);
 }

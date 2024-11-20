@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mt_box/constants/extensions.dart';
-import 'package:mt_box/utils/mt_elevated_button.dart';
 
 class TopBannerWidget extends StatelessWidget {
   const TopBannerWidget(

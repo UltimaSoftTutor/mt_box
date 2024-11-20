@@ -7,7 +7,7 @@ import 'package:mt_box/controllers/splash_controller.dart';
 import 'package:mt_box/firebase_options.dart';
 
 import 'package:mt_box/screens/register_screen.dart';
-import 'package:mt_box/screens/splash_screen/splah_screen.dart';
+import 'package:mt_box/screens/splash_screen/start_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             initialRoute: '/',
             routes: {
-              '/': (context) => const SplashScreen(),
+              '/': (context) => const StartScreen(),
               '/register_screen': (context) => const RegisterScreen()
             },
           ),

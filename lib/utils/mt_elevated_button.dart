@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mt_box/constants/colors.dart';
 import 'package:mt_box/constants/extensions.dart';
 
 class MTElevatedButton extends StatelessWidget {
